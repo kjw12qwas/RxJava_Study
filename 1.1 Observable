@@ -1,3 +1,23 @@
-1.1 Observable 클래스
-=============
+1.1 FirstExample.java 생성
+```
+public class FirstExample {
+    public void emit() {
+        Observable.just("Hello", "RxJava 2!!")
+            .subscribe(System.out::println);
+   }
+   
+   public static void main(String args[]) {
+        FirstExample demo = new FirstExample();
+        demo.emit();
+    }
+}
+```
+
+#### 결과
+
+```
+Hello
+RxJava 2!!
+```
+
 
