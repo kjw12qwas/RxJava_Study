@@ -11,24 +11,5 @@ dependencies {
 
 #### FirstExample.java을 생성합니다.
 
-```
-public class FirstExample {
-    public void emit() {
-        Observable.just("Hello", "RxJava 2!!")
-            .subscribe(System.out::println);
-   }
-   
-   public static void main(String args[]) {
-        FirstExample demo = new FirstExample();
-        demo.emit();
-    }
-}
-```
-
-#### 결과
-
-```
-Hello
-RxJava 2!!
-```
+[1.1 FirstExample.java 생성](https://github.com/kjw12qwas/RxJava_Study/blob/main/1.1%20Observable)
 
