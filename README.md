@@ -1,5 +1,4 @@
 # RxJava Start!! 2020-10-28
-#### 한빛미디어의 RxJava책을 보고 공부를 진행하였습니다.
 
 RxJava를 build.gradle 파일에 추가 시킵니다.
 -------------
@@ -10,5 +9,26 @@ dependencies {
 }
 ```
 
+#### FirstExample.java을 생성합니다.
 
+```
+public class FirstExample {
+    public void emit() {
+        Observable.just("Hello", "RxJava 2!!")
+            .subscribe(System.out::println);
+   }
+   
+   public static void main(String args[]) {
+        FirstExample demo = new FirstExample();
+        demo.emit();
+    }
+}
+```
+
+#### 결과
+
+```
+Hello
+RxJava 2!!
+```
 
