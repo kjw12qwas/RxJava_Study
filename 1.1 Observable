@@ -1,4 +1,5 @@
-1.1 FirstExample.java 생성
+###1.1 FirstExample.java 생성
+
 ```
 public class FirstExample {
     public void emit() {
@@ -13,7 +14,9 @@ public class FirstExample {
 }
 ```
 
-#### 결과
+* * *
+
+### 결과
 
 ```
 Hello
