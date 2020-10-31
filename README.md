@@ -11,5 +11,5 @@ dependencies {
 
 #### FirstExample.java을 생성합니다.
 
-[1.1 FirstExample.java 생성](https://github.com/kjw12qwas/RxJava_Study/blob/main/1.1%20Observable)
+[1.1 FirstExample.java 생성](https://github.com/kjw12qwas/RxJava_Study/blob/main/1.1%20Observable.md)
 
