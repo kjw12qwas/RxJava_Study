@@ -1,6 +1,6 @@
 # RxJava Start!! 2020-10-28
 
-RxJava를 build.gradle 파일에 추가 시킵니다.
+RxJava를 build.gradle 파일에 추가 시킵니다.(버전에 따라 달라질 수 있음)
 -------------
 ```
 dependencies {
