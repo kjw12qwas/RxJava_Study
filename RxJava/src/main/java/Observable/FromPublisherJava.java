@@ -1,8 +1,8 @@
+package Observable;
+
 import io.reactivex.rxjava3.core.Observable;
 import org.reactivestreams.Publisher;
 import org.reactivestreams.Subscriber;
-
-import java.util.concurrent.Flow;
 
 public class FromPublisherJava {
     public void emit(){
